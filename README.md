@@ -23,7 +23,7 @@ SeqTK (https://github.com/lh3/seqtk)
 InterProScan (https://github.com/ebi-pf-team/interproscan)
 
 
-# Step 1: Concatenation and initial QC of long reads
+## Step 1: Concatenation and initial QC of long reads
 
 This step operates under the assumption that the long read data being used is in .fastq format. If raw reads exist in multiple files, they can be concatenated into a single .fastq.gz file before moving on to assembly (zipping is not strictly necessary, but will reduce file size):
 
